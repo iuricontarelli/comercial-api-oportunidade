@@ -1,0 +1,14 @@
+spring:
+    datasource:
+        url: jdbc:h2:file:./comercial # Conexão do banco de dados no H2
+        username: root
+        password: senha123
+    h2:
+        console:
+            enabled: true
+            path: /h2-console
+    jpa: 
+        hibernate: 
+            ddl-auto: update # create
+    application:
+        name: comercial-api
